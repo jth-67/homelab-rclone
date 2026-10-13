@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HomeLab Diagnostics</title><style>body{max-width:760px;margin:3rem auto;padding:0 1.25rem;font:18px/1.65 system-ui,sans-serif;color:#18332c;background:#fafbf8}h1,h2{line-height:1.2}nav,footer{padding:1rem 0;border-bottom:1px solid #ccd8cf}a{color:#145d46}footer{border-top:1px solid #ccd8cf;border-bottom:0;font-size:.9rem}li{margin:.4rem 0}</style></head><body><nav aria-label="Main"><a href="./">HomeLab Diagnostics</a> · <a href="privacy.html">Privacy policy</a></nav><main>
+<h1>HomeLab Diagnostics</h1>
+<p>HomeLab Diagnostics is a personal-use tool for requesting bounded diagnostic information from the owner's systems and returning signed results through Google Drive.</p>
+<h2>How it works</h2>
+<p>The owner selects an approved diagnostic request. The tool checks its authority, reads the permitted system information, and exchanges request and result files through designated private Drive folders. It retains local records used to check results, prevent replay, and enforce finite permissions.</p>
+<h2>Google access</h2>
+<p>Setup uses temporary read-only Drive authorization from the owner to verify the designated folders and their sharing permissions. A separate relay account authorizes Drive access to read requests and write results. The Google scopes are account-wide: selecting folders in the tool does not restrict the OAuth grant itself to those folders. The tool applies additional account, folder, permission and request checks.</p>
+<p>Google authorization and system activation are separate steps. This public information site has no sign-in or upload form and does not provide access to the diagnostic service or its files.</p>
+<p>Read the <a href="privacy.html">privacy policy</a> for details about data use, storage and revoking access.</p>
+<h2>Contact</h2>
+<p>General questions can be raised in the <a href="https://github.com/jth-67/homelab-rclone">public project repository</a>. Do not post credentials, private file contents or personal information there.</p></main><footer>Personal-use project maintained by <a href="https://github.com/jth-67">jth-67</a>. <a href="https://github.com/jth-67/homelab-rclone">Project repository</a>.</footer></body></html>
